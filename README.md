@@ -10,7 +10,7 @@ Util classes for smarter loading of SQL files, that contain different delimiters
 
 This package is based on the work of several people, mainly
 
-* Jakub Vrána and his [Adminer](https://www.adminer.org/cs/)
+* Jakub Vrána and his [Adminer](https://www.adminer.org/)
 * David Grudl and his [Dibi](https://github.com/dg/dibi)
 
 
