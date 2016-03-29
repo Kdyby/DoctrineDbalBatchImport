@@ -8,6 +8,11 @@ Util classes for smarter loading of SQL files, that contain different delimiters
 [![Latest stable](https://img.shields.io/packagist/v/kdyby/doctrine-dbal-batchimport.svg)](https://packagist.org/packages/kdyby/doctrine-dbal-batchimport)
 [![Join the chat at https://gitter.im/Kdyby/Help](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kdyby/Help)
 
+This package is based on the work of several people, mainly
+
+* Jakub Vrána and his [Adminer](https://www.adminer.org/cs/)
+* David Grudl and his [Dibi](https://github.com/dg/dibi)
+
 
 Installation
 ------------
