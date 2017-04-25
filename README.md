@@ -20,7 +20,7 @@ Installation
 The best way to install Kdyby/DoctrineDbalBatchImport is using  [Composer](http://getcomposer.org/):
 
 ```sh
-$ composer require kdyby/doctrine-dbal-batchimport
+$ composer require kdyby/doctrine-dbal-batchimport:@dev
 ```
 
 
