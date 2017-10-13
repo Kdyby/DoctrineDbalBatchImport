@@ -55,10 +55,10 @@ class Helpers
 							call_user_func($callback, $q, $db);
 						}
 
-						$db->query($q);
+						$db->exec($q);
 
 					} catch (\Exception $e) {
-						throw new BatchImportException($sql, $e->getMessage(), 0, $e);
+						throw new BatchImportException($q, $e->getMessage(), 0, $e);
 					}
 
 					$query = substr($query, $offset);
@@ -103,7 +103,7 @@ class Helpers
 				if ($callback) {
 					call_user_func($callback, $sql, ftell($handle));
 				}
-				$connection->query($sql);
+				$connection->exec($sql);
 				$sql = '';
 				$count++;
 
@@ -116,7 +116,7 @@ class Helpers
 			if ($callback) {
 				call_user_func($callback, $sql, ftell($handle));
 			}
-			$connection->query($sql);
+			$connection->exec($sql);
 			$count++;
 		}
 
